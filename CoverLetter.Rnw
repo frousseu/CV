@@ -1,0 +1,77 @@
+\documentclass[12pt,a4paper,sans]{moderncv}
+
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+\usepackage[scale=0.8]{geometry}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\title{Curriculum vitae}
+\name{François}{Rousseu}
+
+
+\begin{document}
+\thispagestyle{empty}
+\pagestyle{empty}
+%\makecvtitle
+
+\clearpage
+
+%\title{Cover letter}
+%\recipient{Aecom}{Corporation\\123 Pleasant Lane\\12345 City, State}
+%\date{\today}
+%\opening{Dear Sir or Madam,}
+%\closing{Sincerely yours,}
+
+
+%\justify
+%\large\textcolor{color2}{Francois Rousseu}\newline
+%\large\textcolor{color2}{Biologiste M. Sc.}\newline
+%\large\textcolor{color2}{378 St-Olivier 1}\newline
+%\large\textcolor{color2}{G1R 1G5 Québec, QC}\newline
+%\large\textcolor{color2}{(418) 704-0728}\newline
+%\large\textcolor{color2}{francoisrousseu@hotmail.com}\newline
+%\normalsize
+%\justify
+
+%\Large\textcolor{color3}{Aecom}\newline
+%\large\textcolor{color3}{adresse}\newline
+%% Personal data
+
+%Le jour, mois, année
+%Madame Y ou Monsieur X
+%Titre
+%Nom de la société
+%Ville, province, code postal
+%Objet : Mise en candidature
+%Madame, Monsieur
+
+\textbf{François Rousseu} 
+
+Biologiste M. Sc. 
+
+377 Laurier, Sherbrooke, QC, J1H 4Z6 
+
+(418) 999-2784 
+
+francoisrousseu@hotmail.com
+\newline\newline
+8 juillet 2016
+\newline\newline
+\textbf{Objet}:
+\newline\newline
+Madame, monsieur,
+\newline\newline
+
+Cordialement,
+\newline\newline
+François Rousseu
+
+%\makelettertitle
+
+\end{document} 

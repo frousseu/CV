@@ -1,0 +1,261 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+%% ModernCV themes
+%\moderncvstyle{casual}
+\moderncvtheme[blue]{classic}
+\moderncvcolor{blue}
+\renewcommand{\familydefault}{\sfdefault}
+\nopagenumbers{}
+
+\renewcommand*{\addresssymbol}       {}
+\renewcommand*{\mobilephonesymbol}   {}
+\renewcommand*{\fixedphonesymbol}    {}
+\renewcommand*{\faxphonesymbol}      {}
+\renewcommand*{\emailsymbol}         {}
+\renewcommand*{\homepagesymbol}      {}
+\renewcommand*{\linkedinsocialsymbol}{}
+\renewcommand*{\twittersocialsymbol} {}
+\renewcommand*{\githubsocialsymbol}  {}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Adjust the page margins
+%\usepackage[scale=0.8]{geometry}
+
+\usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
+% Largeur de la colonne pour les dates
+\setlength{\hintscolumnwidth}{2.5cm}
+
+%% Personal data
+\firstname{\textbf{François}}
+\familyname{\textbf{Rousseu}}
+\title{\textbf{\textnormal{Biologiste M.Sc./Technicien de la faune}}}
+%\title{\textbf{Biologist M.Sc./Wildlife Technician}}
+\address{\textnormal{377 Laurier}}{\textnormal{Sherbrooke, QC, J1H 4Z6}}
+%\mobile{}
+\phone{\textnormal{(418) 999-2784}}
+%\fax{+}
+\email{francoisrousseu@hotmail.com}
+%\homepage{w}
+%\extrainfo{}
+%\photo[64pt][0.4pt]{picture}
+%\quote{Do it!}
+
+%%------------------------------------------------------------------------------
+%% Content
+%%------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+\vspace{-1.0cm}
+\section{\textbf{Objectif de carrière}}
+%\section{\textbf{Career objective}}
+
+\fcolorbox{color2!0}{color2!8}{{\begin{minipage}{1.0\textwidth}
+\centering
+\begin{minipage}{0.97\textwidth}
+Développer et exploiter mes compétences et ma passion pour l'analyse quantitative de données écologiques dans un cadre permettant d'approfondir des questions de nature scientifique ou touchant à la gestion faunique ou floristique et offrant des défis favorisant la créativité et l'apprentissage.
+%Develop and exploit my skills and passion for the analysis of ecological data to answer scientific or management questions in a challenging framework that foster creativity and learning.
+\end{minipage}
+\end{minipage}}}
+
+
+\section{\textbf{Profil}}
+%\section{\textbf{Profile}}
+
+\fcolorbox{color2!0}{color2!8}{{\begin{minipage}{1.0\textwidth}
+\centering
+\begin{minipage}{0.97\textwidth}
+\begin{itemize}
+%\item{Ability to critically and constructively assess ecological, scientific and management questions}
+\item{Capacité à analyser avec un esprit critique et constructif des questions de nature écologique}
+%\item{Data analysis using efficient and modern methods}%(mixed models, GAMs, resource selection functions, quantile regression, Monte-Carlo simulations, etc.)}
+\item{Analyse de données à l'aide de méthodes modernes et performantes}% (\textit{modéles mixtes, GAMs, fonction de sélection de ressources, régression quantile, simulations Monte-Carlo, méthodes bayésiennes, etc})}
+%\item{In depth knowledge of R programming and package development (rNest, GeoAviR)}
+\item{Connaissance approfondie de la programmation en R et développement de \textit{packages} (rNest, GeoAviR)}
+%\item{Proficiency in tasks related to the analysis of spatial data using R, PostGIS, QGIS and ArcGIS}
+\item{Efficacité dans les tâches reliées aux analyses spatiales avec R, PostGIS, QGIS et ArcGIS}
+%\item{Scientific and technical writing in a reproducible research framework and using \LaTeX}
+\item{Rédaction scientifique et technique dans un cadre de recherche reproductible et utilisation de \LaTeX}
+%\item{Naturalist with a good general knowledge of the fauna and flora}
+\item{Naturaliste ayant une très bonne connaissance générale de la faune et de la flore}
+%\item{Identification of birds by sight and sound}
+%\item{Identification des oiseaux à la vue et au chant}
+%\item{Nest searching, bird banding, mist-netting, fitting transmitters, etc.}
+%\item{Baguage, recherche de nids, filet japonais, installation d'émetteurs, etc.}
+\end{itemize}
+\end{minipage}
+\end{minipage}}}
+
+%\newpage
+\section{\textbf{Expérience professionnelle}}
+%\section{\textbf{Professional Experience}}
+
+\cventry{Automne 2016}{Biologiste contractuel}{Environnement et changement climatique Canada/SCF}{}{}
+%\cventry{Fall 2016}{Biologist}{Environment and Climate Change Canada/CWS}{}{}
+{Production d'un atlas d'abondance d'oiseaux pélagiques dans l'ouest de l'Atlantique et determination de zones sensibles aux urgences environnementales en lien avec l'abondance d'oiseaux.}
+%{Production of a pelagic bird abundance atlas in the western Atlantic and identification of areas vulnerable to environmental emergencies in relation to bird abundance.}
+
+\cventry{Été 2015\\Été 2016}{Biologiste}{Cima+}{Québec}{}
+%\cventry{May 2015\\to october 2015}{Biologist}{Cima+}{Quebec}{}
+{Inventaire faunique et floristique (reptiles, amphibiens, oiseaux, micromammifères, plantes à statuts, espèces exotiques envahissantes, milieux humides, etc.) et rédaction de rapport.}
+%{Surveying wildlife, plants, species at risk and exotic species for multiple projects and report writing.}
+
+\cventry{Novembre 2015\\à mai 2016}{Biologiste aux oiseaux migrateurs}{Environnement Canada/SCF}{Québec}{}
+%\cventry{November 2015\\to ... }{Migratory Bird Biologist}{Environment Canada/CWS}{Quebec}{}
+{Développement d'une application Shiny (R) permettant de résumer les données d'intérêts dans des zones touchées par des urgences environnementales et analyse de données d'échantillonnage par distance d'oiseaux pélagiques.}
+%{Developement of an application allowing to summarize information available for a region subjected to an environmental emergency.}
+
+\cventry{Octobre 2014\\à mars 2015}{Biologiste aux oiseaux migrateurs}{Environnement Canada/SCF}{Québec}{}
+%\cventry{October 2014\\to March 2015}{Migratory Bird Biologist}{Environment Canada/CWS}{Quebec}{}
+{Finalisation d'une analyse de la phénologie de reproduction des oiseaux au Canada et rédaction d'un rapport technique décrivant les résultats et les méthodes utilisées (Rousseu et Drolet 2015).}
+%{Finalization of a nesting phenology analysis of birds in Canada and writing of a technical report describing all methods used and results produced (Rousseu and Drolet 2015).}
+
+\cventry{Hiver 2012\\Hiver 2014}{Biologiste contractuel}{Environnement Canada/SCF/UQAR/UdeS}{}{}
+%\cventry{Winter 2012\\Winter 2014}{Biologist}{Environment Canada/CWS/UQAR/UdeS}{}{}
+{Rédaction d'un article scientifique concernant la sélection d'habitat et les mouvements d'alimentation par la Grande Oie des neiges en milieu agricole dans le sud du Québec. Analyse des zones d'hivernage au États-Unis, bonification d'une analyse de sélection d'habitat lors de la mue et rédaction d'articles scientifiques (Rousseu et al. 2016).}
+%{Writing of a scientific paper concerning habitat selection and feeding movements by the Greater Snow Geese on agricultural lands in southern Quebec, analysis of wintering areas and NWR usage in the eastern USA and improvement of an analysis and a paper on molting habitat selection in the arctic.}
+
+\cventry{Automne 2012}{Biologiste}{Environnement Canada/SCF}{}{}
+%\cventry{Fall 2012}{Biologist}{Environment Canada/CWS}{}{}
+{Bonification d'un \textit{package} R (GeoAviR) permettant d'analyser des données d'inventaires d'oiseaux marins récoltées par échantillonnage par distance.}
+%{Improvement of an R package (GeoAviR) for the analysis through distance sampling of pelagic birds survey data.}
+
+\cventry{Hiver 2011\\Autumne 2013}{Biologiste}{Environnement Canada/SCF/Regroupement QuébecOiseaux}{}{}
+%\cventry{Winter 2011\\Fall 2013}{Biologist}{Environment Canada/CWS/Regroupement QuébecOiseaux}{}{}
+{Développement d'un \textit{package} R (rNest) et d'analyses statistiques permettant d'évaluer et de décrire la phénologie de nidification des oiseaux au Canada à partir d'observations de nids et de la banque de données \textit{Project NestWatch} d'études d'oiseaux Canada. Rédaction d'un guide d'utilisateur du \textit{package} rNest et d'un rapport technique décrivant les analyses effectuées.}
+%{Development of an R package (rNest) for the analysis of bird nesting phenology in Canada from nest observations using the Project NestWatch database. Writing of a user guide for the program and of a technical report describing the analyses.}
+
+\cventry{Automne 2010\\à hiver 2012}{Chargé de cours}{Université de Sherbrooke}{}{}
+%\cventry{Fall 2010\\to Winter 2012}{Teacher}{University of Sherbrooke}{}{}
+{Titre du cours : Acquisition et traitement de données écologiques. Il s'agit d'un cours de 30 heures donné dans le cadre du programme de maîtrise en écologie internationale. Le cours traite des principales méthodes statistiques utilisées en écologie et de l'utilisation du logiciel R.}
+%{Course title: \textit{Analysing ecological data}. It was a course of 30 hours given to students in the masters program in International Ecology. The content was the main statiscal methods used in ecology and the use of R for data analysis.}
+
+\cventry{Automne 2010\\Hiver 2011}{Professionnel de recherche}{Université de Sherbrooke}{}{}
+%\cventry{Fall 2010\\Winter 2011}{Research Professional}{University of Sherbrooke}{}{}
+{Gestion et analyse d'une base de données concernant le suivi des déplacements de la Grande Oie des neiges ainsi que les mouvements d'alimentation en milieu agricole dans le sud du Québec.}
+%{Management and analysis of a database using satellite telemetry concerning the migration and feeding movements of the Greater Snow Goose.}
+
+\cventry{Août\\2009 et 2010}{Auxilière d'enseignement}{Université de Sherbrooke}{}{}
+%\cventry{August\\2009 and 2010}{Teacher's Assistant}{University of Sherbrooke}{}{}
+{Enseignement des techniques de capture, de manipulation, de baguage et de détermination des âges des oiseaux aux étudiants du baccalauréat en biologie.}
+%{Teaching manipulations, capture techniques, age determination and banding of birds to undergraduate students in biology.}
+
+\section{\textbf{Éducation}}
+%\section{\textbf{Education}}
+
+\cventry{Août 2010}{M. Sc. Biologie}{Université de Sherbrooke}{}{}
+%\cventry{August 2010}{M. Sc. Biology}{Université de Sherbrooke}{}{}
+{Mon projet de maîtrise portait sur l'écologie spatiale et les comportements de territorialité chez le Colibri à gorge rubis (Archilochus colubris). Je cherchais à comprendre les liens entre la compétition, la structure des habitats, l'utilisation de l'espace et la défense et la monopolisation des ressources alimentaires par les individus (Rousseu et al. 2014).}
+%{The subject of my master's study was the spatial ecology and territorial behaviour of Ruby-throated Hummingbird. Specifically, I was looking at the links between sex, competition, habitat structure, space use by individuals and the defence and monopolization of food resources (Rousseu et al. 2014).}
+
+\cventry{Avril 2007}{B.Sc. Biologie}{Université du Québec à Rimouski}{}{}{}
+%\cventry{April 2007}{B.Sc. Biology}{Université du Québec à Rimouski}{}{}{}
+
+\cventry{Mai 2005}{Techniques d'écologie appliquée}{Collège de Sherbrooke}{}{}{}
+%\cventry{May 2005}{Techniques in Applied Ecology}{Collège de Sherbrooke}{}{}{}
+
+\section{\textbf{Expérience de terrain}}
+%\section{\textbf{Field Work Experience}}
+
+\cventry{Mai-Juillet\\2014}{Technicien de la faune}{Biodiversité Conseil}{}{}
+%\cventry{May-July\\2014}{Wildlife Technician}{Biodiversité Conseil}{}{}
+{Inventaires d'oiseaux par stations d'écoute le long du tracé du projet d'oléoduc Énergie Est de TransCanada.}
+%{Bird surveys by point counts along the projected Energy East Pipeline Project of TransCanada.}
+
+\cventry{Mai-Juillet\\2012}{Technicien de la faune}{Dendroïca Environnement et Faune/Roche}{}{}
+%\cventry{May-July\\2012}{Wildlife Technician}{Dendroïca Environnement et Faune/Roche}{Fermont}{Quebec}
+{Inventaires d'oiseaux forestiers par stations d'écoutes et inventaires en hélicoptère de sauvagines et de rapaces dans la cadre d'un projet de développement minier et d'un chemin de fer entre Sept-Îles et Fermont.}
+%{Helicopter surveys of waterfowl and bird surveys by point counts for a mining project.}
+
+\cventry{Juin-Juillet\\2011}{Technicien de la faune}{Dendroïca Environnement et Faune/Genivar}{}{}
+%\cventry{June-July\\2011}{Wildlife Technician}{Dendroïca Environnement et Faune/Genivar}{Schefferville}{Quebec}
+{Inventaires d'oiseaux par stations d'écoutes et recherche active dans la cadre de deux projets de développement miniers à Amos et au nord de Schefferville.}
+%{Bird surveys by point counts for a mining project.}
+
+\cventry{Mai-Juillet\\2010}{Assistant de recherche}{Université Trent}{Churchill}{Manitoba}
+%\cventry{May-July\\2010}{Field Assistant}{Trent University}{Churchill}{Manitoba}
+{Suivi de la nidification et capture de Bécasseaux variables dans le cadre d'un projet de recherche portant sur la survie et la croissance des jeunes en lien avec l'abondance d'arthropodes et la phénologie de nidification. Plusieurs autres tâches ont été réalisées, notamment la recherche et le suivi de nids des autres espèces présentes et l'installation de géolocateurs sur les Bécasseaux variables adultes.}
+%{Nest searching, banding and family monitoring of Dunlins and Red-necked Phalaropes to study chick growth in relation to arthropod abundance. Field work also involved installation of geolocators on Dunlins and nest searching of other species of shorebirds.}
+
+%\cventry{Septembre\\2008 et 2009}{Biologiste contractuel}{Chabot, Pomerleau et ass.}{}{}
+%\cventry{September\\2008 and 2009}{Biologist}{Chabot, Pomerleau et ass.}{}{}
+%{Réalisation d'inventaires floristiques pour divers projets de développements en Estrie.}
+%{Vegetation surveys in various areas of the Eastern Townships.}
+
+\cventry{Mai-Août\\2007}{Assistant de recherche}{Université du Québec à Rimouski UQAR}{Île Bylot}{Nunavut}
+%\cventry{May-August\\2007}{Field Assistant}{Université du Québec à Rimouski UQAR}{Bylot Island}{Nunavut}
+{Suivi de la nidification et capture de la Grande Oie des neiges dans le cadre d'un suivi annuel effectué sur l'Ile Bylot, Nunavut. Au cours de cet emploi, j'étais également en charge de l'installation d'émetteurs GPS et du suivi télémétrique des oies marquées. J'ai également installé des émetteurs au cours du printemps 2008 à Baie-du-Febvre.}
+%{Long-term study and monitoring of the nesting ecology of the Greater Snow Goose. Field work included geese nest monitoring, collared- geese searching, radio telemetry, banding and installation of GPS transmitters on captured geese.}
+
+\cventry{Mai-Octobre\\2006}{Technicien de la faune}{Dendroïca Environnement et Faune}{}{}                                         	   
+%\cventry{May-October\\2006}{Wildlife Technician}{Dendroïca Environnement et Faune}{}{}
+{Réalisation d'inventaires d'oiseaux et suivi de nidification dans le cadre de projets d'évaluation des impacts du développement de divers projets éoliens et miniers et d'un suivi d'une espèce à statut. Les divers projets ont eu lieu à St-Ulric (Bas St-Laurent), au Parc de la Gatineau (Outaouais) et à Kangiqsujuaq (Nunavik).}
+%{Bird surveys for species of special concerns and windfarm projects in various regions of Quebec and Nunavik.}
+
+\cventry{Mai-Août\\2005}{Assistant de recherche}{Université d'Acadia}{bassin de la rivière Main}{Terre-Neuve}
+%\cventry{May-August\\2005}{Field Assistant}{Acadia University}{Main River Basin}{Newfoundland}
+{Capture et baguage d'oiseaux dans le cadre d'une étude portant sur les mouvements des oiseaux boréaux en réponse à la fragmentation forestière. Les travaux incluaient également la recherche de nids et l'installation d'émetteurs télémétriques sur des passereaux.}
+%{Movement of boreal birds in response to habitat fragmentation. Field work included mist-netting, banding, nest searching and installation of radio telemetry transmitters.}
+
+\cventry{Août\\2004}{Recenseur}{Observatoire d'oiseaux de l'Atlantique}{Cape Sable Island}{Nouvelle-Écosse}
+%\cventry{August\\2004}{Field Assistant}{Atlantic Bird Observatory}{Cape Sable Island}{Nova Scotia}
+{Réalisation d'inventaires d'oiseaux aquatiques et d'oiseaux de rivages dans le cadre d'un projet d'évaluation des impacts du développement d'un projet éolien.}
+%{Surveys for shorebirds and waterbirds for a projected windfarm project.}
+
+\cventry{Mai-Juillet\\2004}{Assistant de recherche}{Université du Nouveau-Brunswick}{}{Nouvelle-Écosse}
+%\cventry{May-July\\2004}{Field Assistant}{University of New Brunswick}{}{Nova Scotia}
+{Capture, baguage, réobservation d'oiseaux marqués, station d'écoute, inventaire de végétation et caractérisation de l'habitat pour un projet se penchant sur la sélection d'habitat par les oiseaux en milieu agricole.}
+%{Public information and habitat selection of grassland birds in agricultural ecosystems. Field work included point counts, mist-netting , banding and resighting grassland birds.}
+
+\cventry{Mai-Juillet\\2003}{Assistant de recherche}{Université Laval/SCF}{Mont Gosford}{Estrie}
+%\cventry{May-July\\2003}{Field Assistant}{Université Laval/CWS}{Gosford}{Eastern Townships}
+{Capture, baguage, station d'écoute et suivi télémétrique de la Grive de Bicknell dans le cadre d'un projet sur son écologie.}
+%{Breeding ecology of Bicknell's Thrush. Field work included point counts, mist-netting and radio telemetry.}
+
+
+\section{\textbf{Publications/Réalisations}}
+%\section{\textbf{Publications/Achievements}}
+
+\begin{itemize}
+\item{Rousseu, F. et B. Drolet. 2016. Phénologie de nidification des oiseaux au Canada. Rapport technique, Environnement Canada, Service canadien de la faune, Québec, Canada, en préparation.}
+%\item{Rousseu, F. and B. Drolet. 2015. The Nesting Phenology of Birds in Canada. Technical Report, Environment Canada, Canadian Wildlife Service, Quebec, Canada, in prep.}
+
+\item{Rousseu, F., M. Bélisle, J. Lefebvre, J. Bêty and J.-F. Giroux. 2016. Habitat Selection of staging Greater Snow Geese in southern agricultural Quebec. in prep.}
+
+\item{Rousseu, F., Y. Charette and M. Bélisle. 2014. Resource defense and monopolization in a marked population of Ruby-throated  Hummingbirds (\textit{Archilochus colubris}). Ecology and Evolution, 4(6): 776-793.}
+
+%\item{Présentation d'une affiche de mon projet de maÎtrise au congrès 2010 de la Société canadienne d'écologie et d'évolution (SCEE): "Monopolisation des ressources dans une population marquée de Colibris à gorge rubis".}
+
+%\item{Présentation orale de mon projet de maîtrise au congrès 2009 de la Société québécoise pour l'étude biologique du comportement (SQÉBC): "Monopolisation des ressources dans une population marquée de Colibris à gorge rubis".}
+
+%\item{Bourse Alfred B. Kelly de la Société québécoise de protection des oiseaux (SQPO) (2008)}
+
+%\item{Bourse de recherche en maîtrise du FQRNT (2008)}
+
+%\item{Bourse de recherche de premier cycle du CRSNG (été 2007)}
+\end{itemize}
+
+%\section{\textbf{Compétences particulières}}
+%\section{\textbf{Special Skills}}
+
+%\begin{itemize}
+%\item{Français et anglais, parlé et écrit}
+
+%\item{Connaissance approfondie du logiciel de statistiques et de programmation R}
+
+%\item{Bonne connaissance des logiciels ArcGIS, Word, Excel et Access}
+
+%\item{Utilisation de la boussole et du GPS}
+%\item{GPS, compass and map navigation}
+
+%\item{Cours de secourisme en milieu éloigné et cours de sécurité nautique}
+%\item{Wilderness First Aid 2014}
+
+%\item{Permis de port et de manutention d'armes}
+%\item{Firearm possession and acquisition}
+%\end{itemize}
+
+\end{document}
