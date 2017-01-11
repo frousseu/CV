@@ -128,7 +128,7 @@ Développer et exploiter mes compétences et ma passion pour l'analyse quantitat
 {Bonification d'un \textit{package} R (GeoAviR) permettant d'analyser des données d'inventaires d'oiseaux marins récoltées par échantillonnage par distance.}
 %{Improvement of an R package (GeoAviR) for the analysis through distance sampling of pelagic birds survey data.}
 
-\cventry{Hiver 2011\\Autumne 2013}{Biologiste}{Environnement Canada/SCF/Regroupement QuébecOiseaux}{}{}
+\cventry{Hiver 2011\\Automne 2013}{Biologiste}{Environnement Canada/SCF/Regroupement QuébecOiseaux}{}{}
 %\cventry{Winter 2011\\Fall 2013}{Biologist}{Environment Canada/CWS/Regroupement QuébecOiseaux}{}{}
 {Développement d'un \textit{package} R (rNest) et d'analyses statistiques permettant d'évaluer et de décrire la phénologie de nidification des oiseaux au Canada à partir d'observations de nids et de la banque de données \textit{Project NestWatch} d'études d'oiseaux Canada. Rédaction d'un guide d'utilisateur du \textit{package} rNest et d'un rapport technique décrivant les analyses effectuées.}
 %{Development of an R package (rNest) for the analysis of bird nesting phenology in Canada from nest observations using the Project NestWatch database. Writing of a user guide for the program and of a technical report describing the analyses.}
