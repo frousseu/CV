@@ -93,6 +93,11 @@ Développer et exploiter mes compétences et ma passion pour l'analyse quantitat
 \section{\textbf{Expérience professionnelle}}
 %\section{\textbf{Professional Experience}}
 
+\cventry{Hiver 2017...}{Professionnel de recherche en écologie}{Université de Sherbrooke/CEF}{}{}
+%\cventry{Winter 2017...}{Research professional in ecology}{University of Sherbrooke/CEF}{}{}
+{Aide des étudiants gradués et des professeurs avec tout ce qui entoure l'analyse quantitative de données écologiques, les statistiques et la programmation, notamment avec R.}
+%{Helping graduate students and professors with everything related to the quantitative analysis of ecological data, statistics and programming, especially with R.}
+
 \cventry{Automne 2016}{Biologiste contractuel}{Environnement et changement climatique Canada/SCF}{}{}
 %\cventry{Fall 2016}{Biologist}{Environment and Climate Change Canada/CWS}{}{}
 {Production d'un atlas d'abondance d'oiseaux pélagiques dans l'ouest de l'Atlantique et determination de zones sensibles aux urgences environnementales en lien avec l'abondance d'oiseaux.}
