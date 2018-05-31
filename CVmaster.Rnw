@@ -37,7 +37,7 @@
 %\mobile{}
 \phone{\textnormal{(418) 999-2784}}
 %\fax{+}
-\email{francoisrousseu@hotmail.com}
+\email{francois.rousseu@usherbrooke.ca}
 %\homepage{w}
 %\extrainfo{}
 %\photo[64pt][0.4pt]{picture}
@@ -95,8 +95,13 @@ Développer et exploiter mes compétences et ma passion pour l'analyse quantitat
 
 \cventry{Hiver 2017...}{Professionnel de recherche en écologie}{Université de Sherbrooke/CEF}{}{}
 %\cventry{Winter 2017...}{Research professional in ecology}{University of Sherbrooke/CEF}{}{}
-{Aide des étudiants gradués et des professeurs avec tout ce qui entoure l'analyse quantitative de données écologiques, les statistiques et la programmation, notamment avec R.}
+{Aide des étudiants gradués et des professeurs avec tout ce qui entoure l'analyse quantitative de données écologiques, les statistiques et la programmation, notamment avec R. Tuteur pour les étudiants en stage à la maîtrise en écologie internationale.}
 %{Helping graduate students and professors with everything related to the quantitative analysis of ecological data, statistics and programming, especially with R.}
+
+\cventry{Hiver 2018 et\\2011, 2012}{Chargé de cours}{Université de Sherbrooke}{}{}
+%\cventry{Fall 2010\\to Winter 2012}{Teacher}{University of Sherbrooke}{}{}
+{Titre du cours : Acquisition et traitement de données écologiques (ECL749). Il s'agit d'un cours de 30 heures donné dans le cadre du programme de maîtrise en écologie internationale. Le cours traite des principales méthodes statistiques utilisées en écologie et de l'utilisation du logiciel R.}
+%{Course title: \textit{Analysing ecological data}. It was a course of 30 hours given to students in the masters program in International Ecology. The content was the main statiscal methods used in ecology and the use of R for data analysis.}
 
 \cventry{Automne 2016}{Biologiste contractuel}{Environnement et changement climatique Canada/SCF}{}{}
 %\cventry{Fall 2016}{Biologist}{Environment and Climate Change Canada/CWS}{}{}
@@ -132,11 +137,6 @@ Développer et exploiter mes compétences et ma passion pour l'analyse quantitat
 %\cventry{Winter 2011\\Fall 2013}{Biologist}{Environment Canada/CWS/Regroupement QuébecOiseaux}{}{}
 {Développement d'un \textit{package} R (rNest) et d'analyses statistiques permettant d'évaluer et de décrire la phénologie de nidification des oiseaux au Canada à partir d'observations de nids et de la banque de données \textit{Project NestWatch} d'études d'oiseaux Canada. Rédaction d'un guide d'utilisateur du \textit{package} rNest et d'un rapport technique décrivant les analyses effectuées.}
 %{Development of an R package (rNest) for the analysis of bird nesting phenology in Canada from nest observations using the Project NestWatch database. Writing of a user guide for the program and of a technical report describing the analyses.}
-
-\cventry{Automne 2010\\à hiver 2012}{Chargé de cours}{Université de Sherbrooke}{}{}
-%\cventry{Fall 2010\\to Winter 2012}{Teacher}{University of Sherbrooke}{}{}
-{Titre du cours : Acquisition et traitement de données écologiques. Il s'agit d'un cours de 30 heures donné dans le cadre du programme de maîtrise en écologie internationale. Le cours traite des principales méthodes statistiques utilisées en écologie et de l'utilisation du logiciel R.}
-%{Course title: \textit{Analysing ecological data}. It was a course of 30 hours given to students in the masters program in International Ecology. The content was the main statiscal methods used in ecology and the use of R for data analysis.}
 
 \cventry{Automne 2010\\Hiver 2011}{Professionnel de recherche}{Université de Sherbrooke}{}{}
 %\cventry{Fall 2010\\Winter 2011}{Research Professional}{University of Sherbrooke}{}{}
